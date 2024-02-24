@@ -16,3 +16,10 @@ console.log(...newArray2);
 
 // Filter
 console.log(...newArray2.filter(num => num >= 6));
+
+//  ----------------------------------
+
+const plus = (i => i + 3);
+const ans = array.map(plus);
+
+console.log(ans);
